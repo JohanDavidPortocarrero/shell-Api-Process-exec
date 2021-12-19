@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 		printf("Debes instroducir comandos \n");
 		exit(1);
 	}
-	if(argc > 2){ 
+	if(argc == 3){ 
 		char *const cmd[] = {argv[1], argv[2], NULL};
 		int i;
 
